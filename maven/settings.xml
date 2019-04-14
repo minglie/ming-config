@@ -110,7 +110,7 @@ under the License.
     <server>
         <id>oss</id>
         <username>minglie</username>
-        <password>Panzer91819&amp;0</password>
+        <password>Wml184467744%0</password>
     </server>
 
   </servers>
@@ -159,6 +159,9 @@ under the License.
   <profiles>
       <profile>
           <id>release</id>
+		  <activation>
+             <activeByDefault>true</activeByDefault>
+         </activation>
           <properties>
               <gpg.executable>D:/Program Files (x86)/GnuPG/bin/gpg.exe</gpg.executable>
               <gpg.passphrase>panzer91819</gpg.passphrase>
